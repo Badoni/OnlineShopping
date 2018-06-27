@@ -29,7 +29,11 @@ hr
 }
 .navbar .navbar-brand
 {
-    margin-left: 20px;
+    margin-left: 50px;
+}
+.navbar .navbar-brand .text
+{
+    text-shadow: 0 2px 0 hsla(0, 0%, 0%, 0.95), 0 3px 0 hsl(174, 100%, 4%), 0 4px 0 hsl(174, 100%, 1%), 0 5px 0 hsl(174, 100%, 2%), 0 6px 0 hsl(0, 0%, 0%), 0 7px 0 hsl(0, 0%, 0%), 0 8px 0 hsl(0, 0%, 0%), 0 0 5px rgb(0, 0, 0), 0 1px 3px rgb(0, 0, 0), 0 3px 5px rgb(0, 0, 0), 0 5px 10px rgba(0, 0, 0, 0.93), 0 10px 10px rgb(2, 2, 2), 0 20px 20px rgb(4, 4, 4);
 }
 .navbar .active a
 {
@@ -182,6 +186,14 @@ hr
     font-weight: bold;
     margin-top: 10px;
 }
+.footersection
+{
+    background-color: #f1f1f1;
+}
+.footersection h6
+{
+    color: darkorange;
+}
 .footersection a
 {
     text-decoration: none;
@@ -218,13 +230,13 @@ hr
 {
     color: #cd201f;
 }
-.licens .row .col-sm-6 .social_goggle:hover
+.licens .row .col-sm-6 .social_google:hover
 {
     color: #dd4b39; 
 }
-.licens .row .col-sm-6 .social_instagram:hover
+.licens .row .col-sm-6 .social-instagram:hover
 {
-    color: #e4405f;
+    color: #bc2a8d;
 }
 .licens .row .col-sm-6 .social
 {
