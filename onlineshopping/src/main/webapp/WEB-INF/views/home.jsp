@@ -5,8 +5,21 @@
 <head>
 <meta charset="ISO-8859-1">
 <title>bazarZONE - ${title}</title>
+
+<script type="text/javascript">
+window.menu='${title}';
+</script>
+
 </head>
 <body>
+
+<!-- Header -->
+<%@include file="./shared/header.jsp"%>
+<!-- Header End --> 
+
+<!-- Navbar -->
+<%@include file="./shared/navbar.jsp"%>
+<!-- Navabr End -->  
 
 <!-- Carousel -->
 <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" >
@@ -220,11 +233,6 @@
     </div>
 <!-- Section 4 End -->
 
-
-
-
-
-
 <!-- ToolTip JS -->
     <script>
     $(document).ready(function()
@@ -268,6 +276,18 @@
 				}, 1500);
 			});
     </script>
+    
+    <!-- SelfCoded JavaScript -->
+<script type="text/javascript" src="${js}/myapp.js"></script>
+    
+    
+<!-- Footer -->
+<%@include file="./shared/footer.jsp" %>
+<!-- Footer End -->    
+
+<!-- CopyRight Footer -->
+<%@include file="./shared/copyrightFooter.jsp" %>
+<!-- Last Copyright Footer End --> 
     
 </body>
 </html>

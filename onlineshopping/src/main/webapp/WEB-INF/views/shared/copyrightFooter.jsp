@@ -10,7 +10,7 @@
 <div class="container-fluid licens bg-dark">
  <div class="row text-center">
   <div class="col-sm-6 col-smd-6 col-lg-6 col-xl-6"><br>
-    <p class="text-white"><i class="fa fa-copyright" aria-hidden="true"></i> copyright by Lalit Badoni.</p>  
+    <p class="text-white mt-3"><i class="fa fa-copyright" aria-hidden="true"></i> copyright by Lalit Badoni.</p>  
   </div>
   <div class="col-sm-6 col-smd-6 col-lg-6 col-xl-6"><br>
     <a href="http://www.facebook.com" class="social social_facebook" data-toggle="tooltip" title="Facebook"><i class="fa fa-facebook-square"></i></a>
