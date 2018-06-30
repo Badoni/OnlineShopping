@@ -11,9 +11,13 @@ window.menu='${title}';
 </head>
 <body>
 
+
+
 <!-- Navbar -->
 <%@include file="./shared/navbar.jsp"%>
 <!-- Navabr End -->    
+   
+   
    
 <!--Loading the  Home Content -->
 <c:if test="${userClickHome == true }">
@@ -35,12 +39,16 @@ window.menu='${title}';
 <%@ include file="service.jsp" %>
 </c:if>
 
+
+
 <!-- CopyRight Footer -->
 <%@include file="./shared/copyrightFooter.jsp" %>
 <!-- Last Copyright Footer End -->    
     
 <!-- SelfCoded JavaScript -->
 <script type="text/javascript" src="${js}/myapp.js"></script>
+
+</div>
 
 </body>
 </html>

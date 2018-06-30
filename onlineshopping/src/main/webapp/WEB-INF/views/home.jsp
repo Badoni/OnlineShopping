@@ -72,7 +72,7 @@ window.menu='${title}';
               <h3>T-shirt 1</h3>
               <h5><i class="fa fa-inr" aria-hidden="true"></i><span class="text-center text-danger"> 500</span></h5>
               <p>new products just in 23 doller only buy now.</p>    
-              <button class="btn btn-danger btn-sm"><i class="fa fa-eye" aria-hidden="true"></i> View Product</button>   
+              <button class="btn btn-danger btn-sm"><i class="fa fa-eye" aria-hidden="true"></i> View Product</button> 
               <button class="btn btn-outline-danger btn-sm"><i class="fa fa-shopping-cart" aria-hidden="true"></i> Add To Cart</button>    
             </div>
         </div>
@@ -98,7 +98,7 @@ window.menu='${title}';
               <h3>T-shirt 1</h3>
                <h5><i class="fa fa-inr" aria-hidden="true"></i><span class="text-center text-danger"> 500</span></h5>
               <p>new products just in 23 doller only buy now.</p>    
-              <button class="btn btn-danger btn-sm"><i class="fa fa-eye" aria-hidden="true"></i> View Product</button>   
+              <button class="btn btn-danger btn-sm"><i class="fa fa-eye" aria-hidden="true"></i> View Product</button>   <br>
               <button class="btn btn-outline-danger btn-sm"><i class="fa fa-shopping-cart" aria-hidden="true"></i> Add To Cart</button>    
             </div>
         </div>
@@ -273,7 +273,7 @@ window.menu='${title}';
 			$('.hero__scroll').on('click', function(e) {
 				$('html, body').animate({
 					scrollTop: $(window).height()
-				}, 1500);
+				}, 100);
 			});
     </script>
     

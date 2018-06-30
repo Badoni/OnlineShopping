@@ -7,7 +7,7 @@
 </head>
 <body>
 
-<div class="container-fluid licens bg-dark">
+<div class="container-fluid licens bg-dark footer">
  <div class="row text-center">
   <div class="col-sm-6 col-smd-6 col-lg-6 col-xl-6"><br>
     <p class="text-white mt-3"><i class="fa fa-copyright" aria-hidden="true"></i> copyright by Lalit Badoni.</p>  
