@@ -23,7 +23,6 @@
 <link href="${css}/owl.theme.default.min.css" type="text/css" rel="stylesheet">
 <link rel="stylesheet" href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css"/>    
 <script src="${js}/owl.carousel.js"></script> 
-<link href="${css}/mytheme.css" rel="stylesheet"> 
 </head>
 <body>
 

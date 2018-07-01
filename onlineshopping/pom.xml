@@ -38,6 +38,12 @@
 			<version>1.2</version>
 		</dependency>
 
+		<!-- Link Backend Project -->
+		<dependency>
+			<groupId>com.lalit</groupId>
+			<artifactId>onlishopping</artifactId>
+			<version>0.0.1-SNAPSHOT</version>
+		</dependency>
 
 		<dependency>
 			<groupId>junit</groupId>

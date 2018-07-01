@@ -98,7 +98,7 @@ window.menu='${title}';
               <h3>T-shirt 1</h3>
                <h5><i class="fa fa-inr" aria-hidden="true"></i><span class="text-center text-danger"> 500</span></h5>
               <p>new products just in 23 doller only buy now.</p>    
-              <button class="btn btn-danger btn-sm"><i class="fa fa-eye" aria-hidden="true"></i> View Product</button>   <br>
+              <button class="btn btn-danger btn-sm"><i class="fa fa-eye" aria-hidden="true"></i> View Product</button>
               <button class="btn btn-outline-danger btn-sm"><i class="fa fa-shopping-cart" aria-hidden="true"></i> Add To Cart</button>    
             </div>
         </div>
@@ -175,24 +175,36 @@ window.menu='${title}';
 <!-- Section 2 End -->      
 <!-- Section 3 -->
     <div class="container section3">
-      <h2 class="text-center mt-5">FEATURED</h2><br><br>
+      <h2 class="text-center mt-5">Our Product</h2><br><br>
         <div class="row" data-aos="flip-up" data-aos-delay="350">
-         <div class="col-lg-6 col-md-6 col-sm-6 col-10 d-block m-auto">
+          
+        <div class="col-lg-4 col-md-4 col-sm-4 mb-5">
+          <h4 class="text-center text-primary">YourBazar</h4>
+           <div class="list-group">
+             <c:forEach items="${categories}" var="category">
+             <a href="#" class="list-group-item list-group-item-action text-center">${category.name}</a>
+             </c:forEach>
+           </div> 
+        </div>
+        
+         <div class="col-lg-4 col-md-4 col-sm-4 col-10 d-block m-auto">
             <img src="${images}/homeIMG/menBanner.jpg" alt="menBanner" class="img-fluid">
-             <div class="text-center">
+             <div class="text-center mb-5">
               <h4 class="text-danger">Men</h4>
               <h6>New Arrivals</h6>
-              <a href="#" class="btn btn-outline-warning">SHOP NOW</a>
-             </div><br>
+              <a href="#" class="btn btn-outline-primary">SHOP NOW</a>
+             </div>
          </div>
-         <div class="col-lg-6 col-md-6 col-sm-6 col-10 d-block m-auto col-2">
+        
+         <div class="col-lg-4 col-md-4 col-sm-4 col-10 d-block m-auto col-2">
              <img src="${images}/homeIMG/womenBanner.jpg" alt="womenBanner" class="img-fluid">
-             <div class="text-center">
+             <div class="text-center mb-5">
               <h4 class="text-danger">Women</h4>
               <h6>New Arrivals</h6>
-              <a href="#" class="btn btn-outline-warning">SHOP NOW</a>
+              <a href="#" class="btn btn-outline-primary">SHOP NOW</a>
              </div>
-         </div>    
+         </div>
+             
         </div>
     </div>
     <br><br>
