@@ -179,12 +179,7 @@ window.menu='${title}';
         <div class="row" data-aos="flip-up" data-aos-delay="350">
           
         <div class="col-lg-4 col-md-4 col-sm-4 mb-5">
-          <h4 class="text-center text-primary">YourBazar</h4>
-           <div class="list-group">
-             <c:forEach items="${categories}" var="category">
-             <a href="#" class="list-group-item list-group-item-action text-center">${category.name}</a>
-             </c:forEach>
-           </div> 
+          <%@include file="./shared/sidebar.jsp" %>
         </div>
         
          <div class="col-lg-4 col-md-4 col-sm-4 col-10 d-block m-auto">

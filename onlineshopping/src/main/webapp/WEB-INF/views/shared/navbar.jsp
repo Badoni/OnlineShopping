@@ -38,7 +38,7 @@
    <ul class="navbar-nav ml-auto">
        <li class="nav-item"><a href="${contextRoot}/home" class="nav-link text-white" id="home">Home</a></li>
        <li class="nav-item"><a href="${contextRoot}/about" class="nav-link text-white" id="about">About Us</a></li>
-       <li class="nav-item"><a href="${contextRoot}/listProdcts" class="nav-link text-white" id="product">Products</a></li>
+       <li class="nav-item"><a href="${contextRoot}/show/all/product" class="nav-link text-white" id="listproduct">Products</a></li>
        <li class="nav-item"><a href="${contextRoot}/service" class="nav-link text-white" id="service">Services</a></li>
        <li class="nav-item"><a href="${contextRoot}/contact" class="nav-link text-white" id="contact">Contact Us</a></li>
     </ul>

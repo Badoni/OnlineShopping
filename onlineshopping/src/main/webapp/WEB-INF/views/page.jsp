@@ -39,6 +39,10 @@ window.menu='${title}';
 <%@ include file="service.jsp" %>
 </c:if>
 
+<!--Loading the Products or category id by product Content -->
+<c:if test="${userClickAllProducts == true or userClickCategoryProducts == true }">
+<%@ include file="listProducts.jsp" %>
+</c:if>
 
 
 <!-- CopyRight Footer -->

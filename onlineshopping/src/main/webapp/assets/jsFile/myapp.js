@@ -6,6 +6,10 @@ function()
 	
 	switch(menu)
 	{
+	case 'Home':
+		$('#home').addClass('active').css("background-color","orange");
+		break;
+		
 	case 'About-US':
 		$('#about').addClass('active').css("background-color","orange");
 		break;	
@@ -17,14 +21,15 @@ function()
 	case 'Our-Service':
 		$('#service').addClass('active').css("background-color","orange");
 		break;
-		
-	case 'Home':
-		$('#home').addClass('active').css("background-color","orange");
+
+	case 'All-Products':
+		$('#listproduct').addClass('active').css("background-color","orange");
 		break;
 		
 	default:
-		$('#listproducts').addClass('active').css("background-color","black");
-		$('#a_'+menu).addClass('active').css("background-color","black");
+		$('#listproduct').addClass('active').css("background-color","orange");
+		$('#a_'+menu).addClass('active');
 		break;
+	
 	}
 });
